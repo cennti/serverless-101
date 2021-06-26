@@ -1,0 +1,58 @@
+baseURL = "https://awsugperu-template-workshops.aws.pe/"
+languageCode = "en-us"
+title = "Workhops by AWS UG Perú"
+theme = "learn"
+uglyurls = false
+googleAnalytics = "UA-44634850-4"
+sectionPagesMenu = "main"
+relativeURLs = true
+
+[blackfriday]
+hrefTargetBlank = true
+
+[params]
+  editURL = "https://github.com/awsugperu/awsugperu-template-workshops/content/"
+  description = "Workhops by AWS UG Perú"
+  author = "awsugperu team"
+  showVisitedLinks = false
+  disableBreadcrumb = true
+  disableNextPrev = false
+  themeVariant = "mine"
+  ghrepo = "https://github.com/awsugperu/awsugperu-template-workshops"
+  branch = "master"
+  pygmentsUseClasses = true
+  pygmentsCodeFences = true
+  pygmentsCodefencesGuessSyntax = true
+  pygmentsStyle = "tango"
+
+[outputs]
+home = [ "HTML", "JSON"]
+page = [ "HTML" ]
+
+[Languages]
+[Languages.en]
+title = "Workhops by AWS UG Perú"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/awsugperu/workshops"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Showcases"
+url = "showcase"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Imperio Cloud Podcast"
+identifier = "imperiocloud"
+url = "https://imperiocloud.com"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Creditos"
+url = "/credits"
+weight = 30
