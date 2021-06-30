@@ -1,12 +1,10 @@
 +++
-copyright = "Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved."
-spdx-license-identifier = "CC-BY-SA-4.0"
-title = "Update Config"
+title = "Integrar API gateway con Amplify"
 date = 2019-09-09T17:42:10+01:00
 weight = 50
 +++
 
-### 5. Update the Website Config
+### 5. Integrar API gateway con Amplify
 Update the _/src/config.js_ file in your website deployment to include the invoke URL of the stage you just created. You should copy the invoke URL directly from the top of the stage editor page on the Amazon API Gateway console and paste it into the _\_config.api.invokeUrl_ key of your site's _/src/config.js_ file. Make sure when you update the config file it still contains the updates you made in the previous module for your Cognito user pool.
 
 **:white_check_mark: Step-by-step directions**

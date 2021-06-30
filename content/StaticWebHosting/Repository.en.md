@@ -1,7 +1,5 @@
 +++
-copyright = "Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved."
-spdx-license-identifier = "CC-BY-SA-4.0"
-title = "Repository"
+title = "Creando y manejando Repositorios con AWS CodeCommit"
 date = 2021-01-13T15:09:39+00:00
 weight = 20
 +++

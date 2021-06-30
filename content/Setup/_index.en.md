@@ -6,4 +6,4 @@ chapter = true
 pre = "<b>0. </b>"
 +++
 
-# Setup
+# Configuración inicial

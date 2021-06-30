@@ -7,3 +7,5 @@ weight = 10
 chapter = true
 pre = "<b>1. </b>"
 +++
+
+# Hosting de Páginas estáticas con Amplify
