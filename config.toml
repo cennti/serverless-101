@@ -12,7 +12,7 @@ enableEmoji = true
 hrefTargetBlank = true
 
 [params]
-  description = "Workhops by CENNTI Cloud"
+  description = "Workshops by CENNTI Cloud"
   author = "Carlos Cortez"
   showVisitedLinks = false
   disableBreadcrumb = true
