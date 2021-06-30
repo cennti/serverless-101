@@ -19,7 +19,7 @@ The AWS Cloud9 development environment comes with AWS managed temporary credenti
 1.  First, create a new CodeCommit repository:
     ```
     aws codecommit create-repository \
-      --repository-name wild-rydes
+      --repository-name viajes-salvajes
     ```
 1.  Clone the existing (not new) workshop repository from GitHub:
     ```
@@ -32,12 +32,12 @@ The AWS Cloud9 development environment comes with AWS managed temporary credenti
 1.  Split out the _WildRydesVue_ code into its own branch:
     ```
     sudo yum install git-subtree -y
-    git subtree split -P resources/code/WildRydesVue -b WildRydesVue
+    git subtree split -P resources/code/WildRydesVue -b ViajesSalvajes
     ```
     **Note:** You may get the error message `git: 'subtree' is not a git command` on Cloud9 and Amazon Linux 2. Run `sudo yum install git-subtree` as a workaround, as this is not installed by default with `git` in these environments.
 1.  Create a new directory for your CodeCommit repo:
     ```
-    mkdir ../wild-rydes && cd ../wild-rydes
+    mkdir ../viajes-salvajes && cd ../viajes-salvajes
     ```
 1.  Initialize a new git repository:
     ```
@@ -45,11 +45,11 @@ The AWS Cloud9 development environment comes with AWS managed temporary credenti
     ```
 1.  Pull the _WildRydesVue_ branch into your new repo:
     ```
-    git pull ../aws-serverless-webapp-workshop WildRydesVue
+    git pull ../aws-serverless-webapp-workshop ViajesSalvajes
     ```
 1.  Add your CodeCommit repository as a remote:
     ```
-    git remote add origin codecommit://wild-rydes
+    git remote add origin codecommit://viajes-salvajes
     ```
 1.  Push the code to your new CodeCommit repository:
     ```
