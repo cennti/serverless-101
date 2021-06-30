@@ -1,7 +1,6 @@
 +++
-copyright = "Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved."
 spdx-license-identifier = "CC-BY-SA-4.0"
-title = "Wild Rydes"
+title = "Serverles 101 - Workshop"
 chapter = false
 weight = 1
 +++

@@ -1,24 +1,23 @@
-baseURL = "https://awsugperu-template-workshops.aws.pe/"
+baseURL = "https://serverless101.cennticloud.com/"
 languageCode = "en-us"
-title = "Workhops by AWS UG Perú"
+title = "Workhops by CENNTI Cloud"
 theme = "learn"
 uglyurls = false
 googleAnalytics = "UA-44634850-4"
 sectionPagesMenu = "main"
 relativeURLs = true
+enableEmoji = true
 
 [blackfriday]
 hrefTargetBlank = true
 
 [params]
-  editURL = "https://github.com/awsugperu/awsugperu-template-workshops/content/"
-  description = "Workhops by AWS UG Perú"
-  author = "awsugperu team"
+  description = "Workhops by CENNTI Cloud"
+  author = "Carlos Cortez"
   showVisitedLinks = false
   disableBreadcrumb = true
   disableNextPrev = false
   themeVariant = "mine"
-  ghrepo = "https://github.com/awsugperu/awsugperu-template-workshops"
   branch = "master"
   pygmentsUseClasses = true
   pygmentsCodeFences = true
@@ -31,20 +30,26 @@ page = [ "HTML" ]
 
 [Languages]
 [Languages.en]
-title = "Workhops by AWS UG Perú"
+title = "Workhops by CENNTI Cloud"
 weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "ds"
-url = "https://github.com/awsugperu/workshops"
+url = "https://github.com/cennti"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-camera'></i> Showcases"
 url = "showcase"
 weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Cortez Cloud"
+identifier = "cortezcloud"
+url = "https://cortez.cloud"
+weight = 20
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bookmark'></i> Imperio Cloud Podcast"
